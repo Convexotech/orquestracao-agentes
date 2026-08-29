@@ -1,0 +1,42 @@
+# Variáveis de ambiente e segredos
+.env
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Cache e bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Flask
+instance/
+.webassets-cache
+
+# Logs
+*.log
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
